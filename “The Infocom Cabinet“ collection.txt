@@ -9,3 +9,24 @@ https://archive.org/details/infocomcabinet
 
 ----------
 
+Salutations, gang.  I see that people are actively going after the .ZIL repository I posted on Github.  It'll either stick around a day or forever, but I'm delighted folks have copied it off and are studying it.
+
+There's multiple levels of interest, ranging from "oh that's neat" to "this is a jumping off point to be nostalgic for 9 tweets" to "hey, wait a minute, why is FLOUNDER.ZIL in there and unreferenced to the other files."  You folks seem to be of the third set, which is delightful.  So here's some additional information to aid you.
+
+The collection of source was part of an Infocom copy off the Sun machine that all development was being ported to to get away from the aging DEC Mainframe in the office.  As a result, it's got a lot of variations and pieces -- at the time, it appears to separate projects between "development" and "old".
+
+JOURNEY, ARTHUR, SHOGUN, ZORK ZERO are all in "development" and the rest are in "old".  In some cases, they will have been in that directory for up to a decade.
+
+While in that "old" directory, they seem to have pretty simple names: For example, ENCHANTER, SORCERER, and SPELLBREAKER are all called "Z4" "Z5" and "Z6" reflecting that they are called Zork IV, Zork V, and Zork VI internally before giving different names by marketing.  Leather Goddesses of Phobos is called X1 (X-Rated Game #1?) and so on.
+
+In those directories, are the source.  But notably for this group, the main directory would be kind of a mess of .ZIL, .XZAP, and error logs.  Many of these would have ANOTHER subdirectory called "R23" or "R96" and that would be more copies of the .ZIL files, most of them duplicated in the main directory.  A few had ALPHA, BETA, and RELEASE as subdirectories.
+
+A quick comparison showed that usually, the R* directories (like R23) would not be the most recent of the code mods -- the ones in the main directory would be.  I suspect the R* directories are the ones that went into the commercial products, and at the top level was someone tinkering or messing with them in case they wanted to re-issue a program.  So keep that in mind.
+
+What I did with Github is check in the R* directories, sometimes one after another, to show the changes.  But a person who super-cares, like you folks, would want to know that I tended to mark each version in the check-in notes.  Like "Release Version 23", until finally checking in the top level.  If you run into problems, I hope this information helps you track it down.
+
+If you need additional questions answered, even if the Githubs disappear, I am at your service.
+
+Jason Scott
+----------
+
